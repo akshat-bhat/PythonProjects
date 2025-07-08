@@ -1,0 +1,28 @@
+To setup a vurtual environment
+in terminal:
+python -m venv venv
+-m is the module and here 'venv' module was selected
+and by default names as venv
+
+To avoid comitting files into the git repositories
+add a file at the root and name it as '.gitignore'
+    in this file you add :
+    venv/
+
+To activate virtual environment:
+>venv\Scripts\Activate
+
+1. In the VS Code terminal, run:
+
+>Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+
+2. Then activate your virtual environment using:
+
+>venv\Scripts\Activate
+
+3. To run code type:
+>python QRCodeGenerator.py
+
+
+4. To deactivate simply type:
+>deactivate
